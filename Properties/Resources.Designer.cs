@@ -83,6 +83,16 @@ namespace EstablecimientosGeoReferenciados.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gps {
+            get {
+                object obj = ResourceManager.GetObject("gps", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap outline_minimize_white_24dp {
             get {
                 object obj = ResourceManager.GetObject("outline_minimize_white_24dp", resourceCulture);

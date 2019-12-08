@@ -28,21 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.dgvRegistros = new System.Windows.Forms.DataGridView();
             this.txtIdEstablecimiento = new System.Windows.Forms.TextBox();
             this.gbDatos = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtRangoEnKM = new System.Windows.Forms.TextBox();
-            this.btnBuscar = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btnCerrar = new System.Windows.Forms.Button();
-            this.btnSubirCsv = new System.Windows.Forms.Button();
             this.lblMensajeCargando = new System.Windows.Forms.Label();
             this.lblCantidaRegistros = new System.Windows.Forms.Label();
             this.lblCoordenadasEstab = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.txtCoordenadasEstab = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btnBuscar = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnCerrar = new System.Windows.Forms.Button();
+            this.btnSubirCsv = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvRegistros)).BeginInit();
             this.gbDatos.SuspendLayout();
             this.SuspendLayout();
@@ -117,70 +119,6 @@
             this.txtRangoEnKM.Size = new System.Drawing.Size(166, 32);
             this.txtRangoEnKM.TabIndex = 6;
             // 
-            // btnBuscar
-            // 
-            this.btnBuscar.BackColor = System.Drawing.Color.White;
-            this.btnBuscar.FlatAppearance.BorderSize = 0;
-            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBuscar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnBuscar.Image = global::EstablecimientosGeoReferenciados.Properties.Resources.outline_search_black_18dp;
-            this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBuscar.Location = new System.Drawing.Point(48, 186);
-            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(170, 35);
-            this.btnBuscar.TabIndex = 5;
-            this.btnBuscar.Text = "Buscar";
-            this.btnBuscar.UseVisualStyleBackColor = false;
-            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Image = global::EstablecimientosGeoReferenciados.Properties.Resources.outline_minimize_white_24dp;
-            this.button1.Location = new System.Drawing.Point(1237, 11);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(62, 69);
-            this.button1.TabIndex = 3;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // btnCerrar
-            // 
-            this.btnCerrar.BackColor = System.Drawing.Color.Transparent;
-            this.btnCerrar.FlatAppearance.BorderSize = 0;
-            this.btnCerrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCerrar.Image = global::EstablecimientosGeoReferenciados.Properties.Resources.baseline_close_white_24dp;
-            this.btnCerrar.Location = new System.Drawing.Point(1307, 11);
-            this.btnCerrar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(62, 69);
-            this.btnCerrar.TabIndex = 2;
-            this.btnCerrar.UseVisualStyleBackColor = false;
-            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
-            // 
-            // btnSubirCsv
-            // 
-            this.btnSubirCsv.BackColor = System.Drawing.Color.White;
-            this.btnSubirCsv.FlatAppearance.BorderSize = 0;
-            this.btnSubirCsv.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSubirCsv.Image = global::EstablecimientosGeoReferenciados.Properties.Resources.baseline_cloud_upload_black_24dp;
-            this.btnSubirCsv.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnSubirCsv.Location = new System.Drawing.Point(108, 98);
-            this.btnSubirCsv.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnSubirCsv.Name = "btnSubirCsv";
-            this.btnSubirCsv.Size = new System.Drawing.Size(94, 76);
-            this.btnSubirCsv.TabIndex = 1;
-            this.btnSubirCsv.Text = "Subir CSV";
-            this.btnSubirCsv.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnSubirCsv.UseVisualStyleBackColor = false;
-            this.btnSubirCsv.Click += new System.EventHandler(this.btnSubirCsv_Click);
-            // 
             // lblMensajeCargando
             // 
             this.lblMensajeCargando.AutoSize = true;
@@ -247,12 +185,92 @@
             this.txtCoordenadasEstab.TabIndex = 11;
             this.txtCoordenadasEstab.Text = "--,--";
             // 
+            // label3
+            // 
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label3.Image = global::EstablecimientosGeoReferenciados.Properties.Resources.gps;
+            this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label3.Location = new System.Drawing.Point(16, 11);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(238, 73);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "Aplicativo para GeoReferenciar Establecimientos";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.BackColor = System.Drawing.Color.Gainsboro;
+            this.btnBuscar.FlatAppearance.BorderSize = 0;
+            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBuscar.Font = new System.Drawing.Font("Yu Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnBuscar.Image = global::EstablecimientosGeoReferenciados.Properties.Resources.outline_search_black_18dp;
+            this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBuscar.Location = new System.Drawing.Point(48, 186);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(170, 35);
+            this.btnBuscar.TabIndex = 5;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Image = global::EstablecimientosGeoReferenciados.Properties.Resources.outline_minimize_white_24dp;
+            this.button1.Location = new System.Drawing.Point(1237, 11);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(62, 69);
+            this.button1.TabIndex = 3;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnCerrar
+            // 
+            this.btnCerrar.BackColor = System.Drawing.Color.Transparent;
+            this.btnCerrar.FlatAppearance.BorderSize = 0;
+            this.btnCerrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCerrar.Image = global::EstablecimientosGeoReferenciados.Properties.Resources.baseline_close_white_24dp;
+            this.btnCerrar.Location = new System.Drawing.Point(1307, 11);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Size = new System.Drawing.Size(62, 69);
+            this.btnCerrar.TabIndex = 2;
+            this.btnCerrar.UseVisualStyleBackColor = false;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
+            // 
+            // btnSubirCsv
+            // 
+            this.btnSubirCsv.BackColor = System.Drawing.Color.White;
+            this.btnSubirCsv.FlatAppearance.BorderSize = 0;
+            this.btnSubirCsv.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSubirCsv.Image = global::EstablecimientosGeoReferenciados.Properties.Resources.baseline_cloud_upload_black_24dp;
+            this.btnSubirCsv.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnSubirCsv.Location = new System.Drawing.Point(124, 140);
+            this.btnSubirCsv.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnSubirCsv.Name = "btnSubirCsv";
+            this.btnSubirCsv.Size = new System.Drawing.Size(94, 76);
+            this.btnSubirCsv.TabIndex = 1;
+            this.btnSubirCsv.Text = "Subir CSV";
+            this.btnSubirCsv.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSubirCsv.UseVisualStyleBackColor = false;
+            this.btnSubirCsv.Click += new System.EventHandler(this.btnSubirCsv_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1382, 621);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.txtCoordenadasEstab);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.lblCoordenadasEstab);
@@ -265,6 +283,7 @@
             this.Controls.Add(this.dgvRegistros);
             this.Font = new System.Drawing.Font("Yu Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Estableciminetos Georeferenciados";
@@ -294,6 +313,7 @@
         private System.Windows.Forms.Label lblCoordenadasEstab;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.TextBox txtCoordenadasEstab;
+        private System.Windows.Forms.Label label3;
     }
 }
 
