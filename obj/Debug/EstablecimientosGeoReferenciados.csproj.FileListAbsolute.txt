@@ -1,0 +1,9 @@
+C:\Users\frank\source\repos\EstablecimientosGeoReferenciados\obj\Debug\EstablecimientosGeoReferenciados.Form1.resources
+C:\Users\frank\source\repos\EstablecimientosGeoReferenciados\obj\Debug\EstablecimientosGeoReferenciados.Properties.Resources.resources
+C:\Users\frank\source\repos\EstablecimientosGeoReferenciados\obj\Debug\EstablecimientosGeoReferenciados.csproj.GenerateResource.cache
+C:\Users\frank\source\repos\EstablecimientosGeoReferenciados\bin\Debug\EstablecimientosGeoReferenciados.exe.config
+C:\Users\frank\source\repos\EstablecimientosGeoReferenciados\bin\Debug\EstablecimientosGeoReferenciados.exe
+C:\Users\frank\source\repos\EstablecimientosGeoReferenciados\bin\Debug\EstablecimientosGeoReferenciados.pdb
+C:\Users\frank\source\repos\EstablecimientosGeoReferenciados\obj\Debug\EstablecimientosGeoReferenciados.exe
+C:\Users\frank\source\repos\EstablecimientosGeoReferenciados\obj\Debug\EstablecimientosGeoReferenciados.pdb
+C:\Users\frank\source\repos\EstablecimientosGeoReferenciados\obj\Debug\EstablecimientosGeoReferenciados.csprojAssemblyReference.cache

@@ -1,0 +1,9 @@
+C:\Users\frank\source\repos\EstablecimientosGeoReferenciados\bin\Release\EstablecimientosGeoReferenciados.exe.config
+C:\Users\frank\source\repos\EstablecimientosGeoReferenciados\bin\Release\EstablecimientosGeoReferenciados.exe
+C:\Users\frank\source\repos\EstablecimientosGeoReferenciados\bin\Release\EstablecimientosGeoReferenciados.pdb
+C:\Users\frank\source\repos\EstablecimientosGeoReferenciados\obj\Release\EstablecimientosGeoReferenciados.csprojAssemblyReference.cache
+C:\Users\frank\source\repos\EstablecimientosGeoReferenciados\obj\Release\EstablecimientosGeoReferenciados.Form1.resources
+C:\Users\frank\source\repos\EstablecimientosGeoReferenciados\obj\Release\EstablecimientosGeoReferenciados.Properties.Resources.resources
+C:\Users\frank\source\repos\EstablecimientosGeoReferenciados\obj\Release\EstablecimientosGeoReferenciados.csproj.GenerateResource.cache
+C:\Users\frank\source\repos\EstablecimientosGeoReferenciados\obj\Release\EstablecimientosGeoReferenciados.exe
+C:\Users\frank\source\repos\EstablecimientosGeoReferenciados\obj\Release\EstablecimientosGeoReferenciados.pdb
